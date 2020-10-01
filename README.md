@@ -23,7 +23,7 @@ We couldn't find free of cost dictionary API for the dictionary's purpose , so w
 <br>
 #ACCOMPLISHMENTS THAT WE ARE PROUD OF
 <br>
-Around 80+ users have already downloaded the application from our website and have given positive reviews and suggestions . They all are happy with this unique pdf viewer and are also using it frequently . This is a boom for the students in the education field because it has smart features that are not present in any pdf viewer till now .
+Around 100+ users have already downloaded the application from our website and have given positive reviews and suggestions . They all are happy with this unique pdf viewer and are also using it frequently . This is a boom for the students in the education field because it has smart features that are not present in any pdf viewer till now .
 <br>
 #WHAT WE LEARNED
 <br>
