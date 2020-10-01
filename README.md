@@ -1,3 +1,2 @@
 # intelliPDF-web-design
-I just designed the site.
-The application idea isn't mine :)
+A static website which displays the features and design of a desktop application named inPhasePDF.
