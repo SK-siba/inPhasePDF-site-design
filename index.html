@@ -206,6 +206,72 @@
 
   </footer>
 
+<script>
+     
+              var jsonObj = [];
+         $.getJSON( "model.json", function( data){
+  jsonObj = data;
+  console.log(jsonObj);
+});
+         function myFunction() {
+             
+document.getElementById("showCounts").innerHTML = jsonObj[0].count;
+    }
+
+
+           
+                function countClicks(){
+        
+        
+       
+var count = parseInt(jsonObj[0].count);
+
+if (count!==null){
+    var count = parseInt(jsonObj[0].count) + 1;
+    jsonObj[0].count = count;
+   
+
+
+ 
+  console.log(jsonObj);
+
+
+  }
+    $.ajax({
+        url:'update.php',
+             method:"POST",
+             data:{count:count,},
+             success:function(response)
+              { 
+                console.log((response));
+                var res = JSON.parse(response);
+                 if (res.status == "success") {
+                swal('Thanks for Downloading!!', '', 'success')
+                  window.location = "https://drive.google.com/u/0/uc?export=download&confirm=xQan&id=1fT1mes9Rx9xW7y51k86jYeeZ4YnVDqH5";
+                                    
+                 }
+                 
+                    }
+             
+            });
+
+
+  
+
+}
+
+             
+             
+           </script>
+           <script>
+
+               
+           </script>
+           
+
+
+
+
 
 </body>
 
